@@ -16,7 +16,6 @@ All datasets were downloaded in  `.xlsx`  format with columns:
 ```
 Post Translational Modification
 Modified Residue 
-
 ```
 
 Then the file was renamed to  `{aa}_data.xlsx`
