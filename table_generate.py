@@ -15,7 +15,7 @@ if "Modified residue" in df.columns:
     
     # Now, create a frequency table for the exploded '/note' values
     frequency_table = df_exploded['Notes'].value_counts().reset_index()
-    frequency_table.columns = ['Modifications', 'Frequency']
+    frequency_table.columns = ['Modifications', 'Total Number of modifications']
     frequency_table.to_excel('./data/modification_frequency.xlsx', index=False)
     # Display the frequency table
     print(frequency_table)
