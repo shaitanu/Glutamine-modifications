@@ -1,4 +1,5 @@
 import pandas as pd
+import re
 
 # Load the Excel file
 file_path = './data/glu_cleaned_data.xlsx'
